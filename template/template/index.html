@@ -1,0 +1,575 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Miguel Angel Vera Gomez - Full Stack Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@200;300;400;500;600&family=Syne:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="templatemo-nexaverse.css">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div class="loading-screen" id="loadingScreen">
+        <div class="loader-ring"></div>
+        <div class="loading-text">Inicializando perfil profesional</div>
+    </div>
+
+    <!-- Ambient Background -->
+    <div class="ambient-bg">
+        <div class="orb orb-1"></div>
+        <div class="orb orb-2"></div>
+        <div class="orb orb-3"></div>
+    </div>
+
+    <!-- Grid Overlay -->
+    <div class="grid-overlay"></div>
+
+    <!-- Main Container -->
+    <div class="container">
+
+        <!-- Header -->
+        <div class="header" id="mainHeader">
+            <div class="logo">
+                <img src="https://res.cloudinary.com/dchedntcz/image/upload/v1768826283/FOTO_CV_q2miwy.jpg" alt="Miguel Angel Vera" class="logo-img">
+            </div>
+            <h1 class="brand-name">Miguel Angel Vera Gomez</h1>
+            <p class="tagline">Full Stack Developer</p>
+        </div>
+
+        <!-- Menu Grid -->
+        <div class="menu-grid" id="menuGrid">
+            <div class="menu-item initial-load" data-section="introduction">
+                <div class="menu-badge">SM</div>
+                <div class="menu-title">Sobre mí</div>
+            </div>
+            <div class="menu-item initial-load" data-section="servicios">
+                <div class="menu-badge">SV</div>
+                <div class="menu-title">Servicios</div>
+            </div>
+            <div class="menu-item initial-load" data-section="proyectos">
+                <div class="menu-badge">PR</div>
+                <div class="menu-title">Proyectos</div>
+            </div>
+            <div class="menu-item initial-load" data-section="formacion">
+                <div class="menu-badge">Form</div>
+                <div class="menu-title">Formación</div>
+            </div>
+            <div class="menu-item initial-load" data-section="experiencia">
+                <div class="menu-badge">EXP</div>
+                <div class="menu-title">Experiencia</div>
+            </div>
+            <div class="menu-item initial-load" data-section="contacto">
+                <div class="menu-badge">CT</div>
+                <div class="menu-title">Contacto</div>
+            </div>
+        </div>
+
+        <!-- Content Sections -->
+        <div id="contentArea">
+
+            <!-- ============================================================ -->
+            <!-- SOBRE MÍ (id debe coincidir con data-section="introduction") -->
+            <!-- ============================================================ -->
+            <div class="content-section" id="introduction">
+                <div class="section-header-small">
+                    <div class="small-logo">
+                        <img src="https://res.cloudinary.com/dchedntcz/image/upload/v1773081653/ChatGPT_Image_9_mar_2026_19_40_43_lbwn8a.png" alt="Miguel Angel" class="small-brand-img">
+                    </div>
+                    <div class="small-brand">
+                        <h3>Miguel Angel Vera Gomez</h3>
+                        <p>Digital Experiences</p>
+                    </div>
+                </div>
+                <button class="back-btn" onclick="backToMenu()">← Volver al Menú</button>
+
+                <!-- Hero Banner -->
+                
+                    <div class="intro-hero-content">
+                        <h1 class="intro-headline">Construyo experiencias<br><span>Digitales</span> a tu medida</h1>
+                        <p class="intro-subtext">Desarrollador Full Stack especializado en React, Node.js y MongoDB, enfocado en el desarrollo de aplicaciones web modernas, escalables y bien estructuradas.
+
+                        Antes de dedicarme al desarrollo de software, acumulé 21 años de experiencia profesional en un sector completamente diferente, donde obtuve dos ascensos por desempeño y llegué a liderar equipos de hasta 8 personas. Era un entorno de alta responsabilidad y riesgo, 
+                        donde el estrés formaba parte del día a día. Esta experiencia me permitió desarrollar una gran capacidad para mantener la calma bajo presión, tomar decisiones rápidas y resolver problemas de forma eficiente, habilidades que hoy aplico directamente en el desarrollo de software.
+
+                        En el ámbito técnico trabajo principalmente con React, JavaScript, HTML, CSS y Tailwind en frontend, y Node.js, Express, MongoDB y SQL en backend, construyendo aplicaciones completas y funcionales. También cuento con experiencia en testing con Jest y Mocha, control de versiones mediante Git, y despliegue de aplicaciones en plataformas como Render y Netlify.<br>
+
+                        Además, tengo experiencia en impresión y escaneo 3D, utilizando herramientas como PrusaSlicer, UltiMaker Cura, ChiTuBox y Lychee, lo que refleja mi interés por la tecnología más allá del desarrollo web.<br>
+
+                        Fuera del ámbito tecnológico, soy monitor de defensa personal certificado por FEDAMC y el Ministerio del Interior, además de Campeón de España de Defensa Personal en 2021 y 2023, y medalla de bronce en 2022.
+
+                        Disciplina, resiliencia y pensamiento estratégico son habilidades que aplico tanto en el deporte como en el desarrollo de software para crear soluciones eficientes e innovadoras.<br>
+                              <strong>Telefono:</strong> 639477821<br>
+                              <strong>Email:</strong> mangelveragomez@gmail.com
+
+
+                            
+                        </p>
+                    </div>
+                
+                    <div class="intro-hero-visual">
+                        <div class="intro-floating-card card-1">
+                            <span class="card-icon">⚡</span>
+                            <span class="card-text">Lightning Fast</span>
+                        </div>
+                        <div class="intro-floating-card card-2">
+                            <span class="card-icon">🎯</span>
+                            <span class="card-text">Pixel Perfect</span>
+                        </div>
+                        <div class="intro-floating-card card-3">
+                            <span class="card-icon">🔒</span>
+                            <span class="card-text">Secure & Reliable</span>
+                        </div>
+                        <div class="intro-orb"></div>
+                    </div>
+                </div>
+
+                <!-- Metrics Strip -->
+                <div class="intro-metrics">
+                    <div class="metric-item">
+                        <span class="metric-value" data-target="5">5</span>
+                        <span class="metric-label">Proyectos finalizados</span>
+                    </div>                
+                                       
+                </div>
+
+                <!-- Core Values -->
+                <div class="intro-values">
+                    <div class="value-card">
+                        <div class="value-number">01</div>
+                        <h3>Innovación Primero</h3>
+                        <p>Embracing emerging technologies and pushing creative boundaries to deliver solutions that set new industry standards.</p>
+                    </div>
+                    <div class="value-card">
+                        <div class="value-number">02</div>
+                        <h3>Human-Centered</h3>
+                        <p>Every pixel, every interaction is designed with real users in mind. We create experiences people genuinely love.</p>
+                    </div>
+                    <div class="value-card">
+                        <div class="value-number">03</div>
+                        <h3>Results Driven</h3>
+                        <p>Beautiful design meets measurable impact. We track, iterate, and optimize for outcomes that matter to your business.</p>
+                    </div>
+                </div>
+
+                <!-- Tech Stack Preview -->
+                <div class="intro-tech">
+                    <p class="tech-label">Tecnologías Disponibles</p>
+                    <div class="tech-marquee">
+                        <div class="tech-track">
+                            <span class="tech-item">React</span>
+                            <span class="tech-item">JavaScript</span>
+                            <span class="tech-item">Node.js</span>
+                            <span class="tech-item">Express.js</span>
+                            <span class="tech-item">HTML</span>
+                            <span class="tech-item">Jest</span>
+                            <span class="tech-item">Mocha</span>
+                            <span class="tech-item">SQL</span>
+                            <span class="tech-item">NoSQL</span>
+                            <span class="tech-item">CSS</span>
+                            <span class="tech-item">Tailwind CSS</span>
+                            <span class="tech-item">React</span>
+                            <span class="tech-item">JavaScript</span>
+                            <span class="tech-item">Node.js</span>
+                            <span class="tech-item">Express.js</span>
+                            <span class="tech-item">HTML</span>
+                            <span class="tech-item">Jest</span>
+                            <span class="tech-item">Mocha</span>
+                            <span class="tech-item">SQL</span>
+                            <span class="tech-item">NoSQL</span>
+                            <span class="tech-item">CSS</span>
+                            <span class="tech-item">Tailwind CSS</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ============================================================ -->
+            <!-- SERVICIOS (id coincide con data-section="servicios")         -->
+            <!-- ============================================================ -->
+            <div class="content-section" id="servicios">
+                <div class="section-header-small">
+                    <div class="small-logo">
+                        <img src="https://res.cloudinary.com/dchedntcz/image/upload/v1773081653/ChatGPT_Image_9_mar_2026_19_40_43_lbwn8a.png" alt="Miguel Angel" class="small-brand-img">
+                    </div>
+                    <div class="small-brand">
+                        <h3>MAVG</h3>
+                        <p>Digital Experiences</p>
+                    </div>
+                </div>
+                <button class="back-btn" onclick="backToMenu()">← Volver al Menú</button>
+
+                <div class="section-header">
+                    <h2 class="section-title">Mis Servicios</h2>
+                    <p class="section-subtitle">Soluciones integrales para la era digital</p>
+                </div>
+
+                <div class="tabs-container">
+                    <div class="tab-buttons">
+                        <button class="tab-btn active" onclick="switchTab(this, 'development')">Development</button>
+                        <button class="tab-btn" onclick="switchTab(this, 'design')">Design</button>
+                        <button class="tab-btn" onclick="switchTab(this, 'consulting')">Consulting</button>
+                        <button class="tab-btn" onclick="switchTab(this, 'support')">Support</button>
+                    </div>
+
+                    <div class="tab-content">
+                        <div class="tab-pane active" id="development">
+                            <div class="services-list">
+                                <div class="service-row">
+                                    <div class="service-row-icon">
+                                        <img src="images/ai-optimized-templates.jpg" alt="AI Development">
+                                    </div>
+                                    <div class="service-row-content">
+                                        <h4>AI Development</h4>
+                                        <p>Aplicamos inteligencia artificial para crear soluciones innovadoras y automatizadas.</p>
+                                    </div>
+                                </div>
+                                <div class="service-row">
+                                    <div class="service-row-icon">
+                                        <img src="images/coding-screen.jpg" alt="Web Applications">
+                                    </div>
+                                    <div class="service-row-content">
+                                        <h4>Aplicaciones Web</h4>
+                                        <p>Aplicaciones web escalables y receptivas creadas con marcos modernos como React para un rendimiento óptimo.</p>
+                                    </div>
+                                </div>
+                                <div class="service-row">
+                                    <div class="service-row-icon">
+                                        <img src="images/ai-mobile-app.jpg" alt="Mobile Apps">
+                                    </div>
+                                    <div class="service-row-content">
+                                        <h4>Aplicaciones Móviles</h4>
+                                        <p>Soluciones nativas y multiplataforma para iOS y Android que ofrecen experiencias de usuario fluidas.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tab-pane" id="design">
+                            <div class="services-list">
+                                <div class="service-row">
+                                    <div class="service-row-icon">
+                                        <img src="images/design-screen.jpg" alt="UX/UI Design">
+                                    </div>
+                                    <div class="service-row-content">
+                                        <h4>UX/UI Design</h4>
+                                        <p>Beautiful, intuitive interfaces that delight users and drive engagement through research-backed design principles.</p>
+                                    </div>
+                                </div>
+                                <div class="service-row">
+                                    <div class="service-row-icon">
+                                        <img src="images/brand-identity.jpg" alt="Brand Identity">
+                                    </div>
+                                    <div class="service-row-content">
+                                        <h4>Brand Identity</h4>
+                                        <p>Complete brand packages including logos, typography, color systems, and comprehensive brand guidelines.</p>
+                                    </div>
+                                </div>
+                                <div class="service-row">
+                                    <div class="service-row-icon">
+                                        <img src="images/motion-design.jpg" alt="Motion Design">
+                                    </div>
+                                    <div class="service-row-content">
+                                        <h4>Motion Design</h4>
+                                        <p>Engaging animations and interactive experiences that bring your digital products to life.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tab-pane" id="consulting">
+                            <div class="services-list">
+                                <div class="service-row">
+                                    <div class="service-row-icon">
+                                        <img src="images/digital-strategy.jpg" alt="Digital Strategy">
+                                    </div>
+                                    <div class="service-row-content">
+                                        <h4>Estrategia Digital</h4>
+                                        <p>Strategic planning for digital transformation initiatives that align technology with business objectives.</p>
+                                    </div>
+                                </div>
+                                <div class="service-row">
+                                    <div class="service-row-icon">
+                                        <img src="images/process-optimized.jpg" alt="Process Optimization">
+                                    </div>
+                                    <div class="service-row-content">
+                                        <h4>Process Optimization</h4>
+                                        <p>Streamline workflows with automation and best practices for maximum efficiency and productivity.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tab-pane" id="support">
+                            <div class="services-list">
+                                <div class="service-row">
+                                    <div class="service-row-icon">
+                                        <img src="images/247-support.jpg" alt="24/7 Support">
+                                    </div>
+                                    <div class="service-row-content">
+                                        <h4>24/7 Support</h4>
+                                        <p>Round-the-clock technical assistance and maintenance to keep your systems running smoothly.</p>
+                                    </div>
+                                </div>
+                                <div class="service-row">
+                                    <div class="service-row-icon">
+                                        <img src="images/managed-service.jpg" alt="Managed Services">
+                                    </div>
+                                    <div class="service-row-content">
+                                        <h4>Managed Services</h4>
+                                        <p>End-to-end management of your digital infrastructure for worry-free operations.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ============================================================ -->
+            <!-- PROYECTOS (id coincide con data-section="proyectos")         -->
+            <!-- ============================================================ -->
+            <div class="content-section" id="proyectos">
+                <div class="section-header-small">
+                    <div class="small-logo">
+                        <img src="https://res.cloudinary.com/dchedntcz/image/upload/v1773081653/ChatGPT_Image_9_mar_2026_19_40_43_lbwn8a.png" alt="Miguel Angel" class="small-brand-img">
+                    </div>
+                    <div class="small-brand">
+                        <h3>MAVG</h3>
+                        <p>Digital Experiences</p>
+                    </div>
+                </div>
+                <button class="back-btn" onclick="backToMenu()">← Volver al Menú</button>
+
+                <div class="section-header">
+                    <h2 class="section-title">Mis Proyectos</h2>
+                    <p class="section-subtitle">Explora mis últimos trabajos</p>
+                </div>
+
+                <div class="filter-buttons">
+                    <button class="filter-btn active" onclick="filterGallery('all', this)">Todos</button>
+                    <button class="filter-btn" onclick="filterGallery('web', this)">Web</button>
+                    <button class="filter-btn" onclick="filterGallery('mobile', this)">Mobile</button>
+                    <button class="filter-btn" onclick="filterGallery('branding', this)">Branding</button>
+                </div>
+
+                <div class="gallery-grid">
+                    <div class="gallery-item" data-category="web">
+                        <img src="images/coding-screen.jpg" alt="Project 1">
+                        <div class="gallery-overlay">
+                            <h4>E-Commerce Platform</h4>
+                            <p>Web Development</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="mobile">
+                        <img src="images/ai-mobile-app.jpg" alt="Project 2">
+                        <div class="gallery-overlay">
+                            <h4>Fitness App</h4>
+                            <p>Mobile Development</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="branding">
+                        <img src="images/brand-identity.jpg" alt="Project 3">
+                        <div class="gallery-overlay">
+                            <h4>Brand Identity</h4>
+                            <p>Design & Branding</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="web">
+                        <img src="images/managed-service.jpg" alt="Project 4">
+                        <div class="gallery-overlay">
+                            <h4>Analytics Dashboard</h4>
+                            <p>Web Application</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="mobile">
+                        <img src="images/ai-optimized-templates.jpg" alt="Project 5">
+                        <div class="gallery-overlay">
+                            <h4>Banking App</h4>
+                            <p>Mobile Development</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="branding">
+                        <img src="images/digital-strategy.jpg" alt="Project 6">
+                        <div class="gallery-overlay">
+                            <h4>Startup Branding</h4>
+                            <p>Design & Identity</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ============================================================ -->
+            <!-- FORMACIÓN (id coincide con data-section="formacion")         -->
+            <!-- ============================================================ -->
+            <div class="content-section" id="formacion">
+                <div class="section-header-small">
+                    <div class="small-logo">
+                        <img src="https://res.cloudinary.com/dchedntcz/image/upload/v1773081653/ChatGPT_Image_9_mar_2026_19_40_43_lbwn8a.png" alt="Miguel Angel" class="small-brand-img">
+                    </div>
+                    <div class="small-brand">
+                        <h3>MAVG</h3>
+                        <p>Digital Experiences</p>
+                    </div>
+                </div>
+                <button class="back-btn" onclick="backToMenu()">← Volver al Menú</button>
+
+                <div class="section-header">
+                    <h2 class="section-title">Formación</h2>
+                    <p class="section-subtitle">Mi trayectoria académica y certificaciones</p>
+                </div>
+
+                <div class="intro-values">
+                    <div class="value-card">
+                        <div class="value-number">01</div>
+                        <h3>Bootcamp Full Stack</h3>
+                        <p>Formación intensiva en desarrollo web Full Stack cubriendo frontend, backend, bases de datos y despliegue en la nube.<br>
+                        </p>
+                    </div>
+                    <div class="value-card">
+                        <div class="value-number">02</div>
+                        <h3>Formación de programación en Java</h3>
+                        <p>Certificaciones en tecnologías modernas como React, Node.js y bases de datos SQL y NoSQL.</p>
+                    </div>
+                    <div class="value-card">
+                        <div class="value-number">03</div>
+                        <h3>Formación en IA y Data Science aplicadas a Empresas.</h3>
+                        <p>Aprendizaje constante a través de cursos online, documentación oficial y proyectos personales.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ============================================================ -->
+            <!-- EXPERIENCIA (id coincide con data-section="experiencia")     -->
+            <!-- ============================================================ -->
+            <div class="content-section" id="experiencia">
+                <div class="section-header-small">
+                    <div class="small-logo">
+                        <img src="https://res.cloudinary.com/dchedntcz/image/upload/v1773081653/ChatGPT_Image_9_mar_2026_19_40_43_lbwn8a.png" alt="Miguel Angel" class="small-brand-img">
+                    </div>
+                    <div class="small-brand">
+                        <h3>MAVG</h3>
+                        <p>Digital Experiences</p>
+                    </div>
+                </div>
+                <button class="back-btn" onclick="backToMenu()">← Volver al Menú</button>
+
+                <div class="section-header">
+                    <h2 class="section-title">Experiencia</h2>
+                    <p class="section-subtitle">Mi trayectoria profesional</p>
+                </div>
+
+                <div class="testimonials-grid">
+                    <div class="testimonial-card">
+                        <p class="testimonial-text">Desarrollo de aplicaciones web con React y Node.js, implementando APIs REST y bases de datos SQL.</p>
+                        <div class="testimonial-author">
+                            <div class="author-info">
+                                <h5>Full Stack Developer</h5>
+                                <p>2023 - Actualidad</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <p class="testimonial-text">Desarrollo frontend con HTML, CSS y JavaScript. Maquetación de interfaces responsive y accesibles.</p>
+                        <div class="testimonial-author">
+                            <div class="author-info">
+                                <h5>Frontend Developer</h5>
+                                <p>2022 - 2023</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <p class="testimonial-text">Proyectos personales y colaborativos en GitHub, aplicando metodologías ágiles y control de versiones.</p>
+                        <div class="testimonial-author">
+                            <div class="author-info">
+                                <h5>Proyectos Personales</h5>
+                                <p>2021 - 2022</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <p class="testimonial-text">Participación en bootcamp intensivo de desarrollo web, adquiriendo bases sólidas en programación y tecnologías modernas.</p>
+                        <div class="testimonial-author">
+                            <div class="author-info">
+                                <h5>Bootcamp Full Stack</h5>
+                                <p>2020 - 2021</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ============================================================ -->
+            <!-- CONTACTO (id coincide con data-section="contacto")           -->
+            <!-- ============================================================ -->
+            <div class="content-section" id="contacto">
+                <div class="section-header-small">
+                    <div class="small-logo">
+                        <img src="https://res.cloudinary.com/dchedntcz/image/upload/v1773081653/ChatGPT_Image_9_mar_2026_19_40_43_lbwn8a.png" alt="Miguel Angel" class="small-brand-img">
+                    </div>
+                    <div class="small-brand">
+                        <h3>MAVG</h3>
+                        <p>Digital Experiences</p>
+                    </div>
+                </div>
+                <button class="back-btn" onclick="backToMenu()">← Volver al Menú</button>
+
+                <div class="section-header">
+                    <h2 class="section-title">Contacto</h2>
+                    <p class="section-subtitle">Hablemos y creemos algo increíble juntos</p>
+                </div>
+
+                <div class="contact-grid">
+                    <div class="contact-form">
+                        <div class="form-group">
+                            <input type="text" placeholder="Tu Nombre">
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Tu Email">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" placeholder="Asunto">
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Tu Mensaje"></textarea>
+                        </div>
+                        <button class="submit-btn">Enviar Mensaje</button>
+                    </div>
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <div class="contact-icon">📍</div>
+                            <div class="contact-details">
+                                <h4>Ubicación</h4>
+                                <p>Rivas Vaciamadrid - Madrid</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">📧</div>
+                            <div class="contact-details">
+                                <h4>Email</h4>
+                                <p>mangelveragomez@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">📞</div>
+                            <div class="contact-details">
+                                <h4>Teléfono</h4>
+                                <p>639477821</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div><!-- /contentArea -->
+
+        <!-- Footer -->
+        <footer class="footer" id="mainFooter"></footer>
+
+    </div><!-- /container -->
+
+    <script src="templatemo-nexa-scripts.js"></script>
+</body>
+</html>
